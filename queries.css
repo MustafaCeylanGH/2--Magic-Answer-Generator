@@ -1,0 +1,23 @@
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  img {
+    max-width: 24rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .btn {
+    margin-bottom: 3.2rem;
+  }
+
+  .after-answer-text {
+    position: absolute;
+    top: 20%;
+    right: 12%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0 1rem 0 1rem;
+  }
+}

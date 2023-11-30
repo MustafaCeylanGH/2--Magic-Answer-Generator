@@ -1,0 +1,93 @@
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+-------------------------------------------------------------------------------
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.main-header {
+  color: #2e2e2e;
+  font-size: 3.6rem;
+  font-weight: 700;
+  padding: 2.4rem 0 1.6rem 0;
+  text-align: center;
+}
+
+img {
+  max-width: 30rem;
+}
+
+.answer-img {
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+.after-answer {
+  position: relative;
+}
+
+.after-answer-text {
+  position: absolute;
+  top: 22%;
+  right: 42%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0 1rem 0 1rem;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.after-answer-text.visible {
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #fcc419;
+  margin: 0 auto 2.4rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+.btn-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2e2e2e;
+}
+
+.footer {
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 1.2rem 0 1.6rem 0;
+  text-align: center;
+}
